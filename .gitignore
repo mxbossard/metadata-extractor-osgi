@@ -11,3 +11,6 @@
 /Libraries/XMPCore/docs
 /Libraries/XMPCore/intermediate
 /Libraries/XMPCore/target
+/target
+/.classpath
+/.project

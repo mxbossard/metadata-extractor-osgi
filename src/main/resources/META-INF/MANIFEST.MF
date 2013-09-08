@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-ClassPath: .
+Bundle-Version: 2.6.4
+Bundle-Name: metadata-extractor	
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.drewnoakes.metadata-extractor
+Export-Package: 
+ com.drew.imaging;version="2.6.4",
+ com.drew.imaging.jpeg;version="2.6.4",
+ com.drew.imaging.psd;version="2.6.4",
+ com.drew.imaging.tiff;version="2.6.4",
+ com.drew.lang;version="2.6.4",
+ com.drew.metadata;version="2.6.4",
+ com.drew.metadata.adobe;version="2.6.4",
+ com.drew.metadata.exif;version="2.6.4",
+ com.drew.metadata.icc;version="2.6.4",
+ com.drew.metadata.iptc;version="2.6.4",
+ com.drew.metadata.jfif;version="2.6.4",
+ com.drew.metadata.jpeg;version="2.6.4",
+ com.drew.metadata.photoshop;version="2.6.4",
+ com.drew.metadata.xmp;version="2.6.4"
+Import-Package: 
+ com.adobe.xmp;version="[5.1.2, 6.0.0)",
+ com.adobe.xmp.properties;version="[5.1.2, 6.0.0)"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+

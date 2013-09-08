@@ -41,7 +41,7 @@ public class PanasonicMakernoteDescriptorTest
     @Before
     public void setUp() throws Exception
     {
-        File file = new File("Tests/com/drew/metadata/exif/withPanasonicFaces.jpg");
+        File file = new File("com/drew/metadata/exif/withPanasonicFaces.jpg");
         Metadata metadata = JpegMetadataReader.readMetadata(file);
         _panasonicDirectory = metadata.getDirectory(PanasonicMakernoteDirectory.class);
     }
